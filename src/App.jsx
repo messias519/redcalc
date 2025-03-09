@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import CalculadoraDeDoses from './pages/calculadoraDeDoses';
-import Reposicao from './pages/Reposicao';
-import EditorTexto from './pages/EditorTexto';
+import Reposicao from './pages/reposicao';
+import EditorTexto from './pages/editorTexto';
 
 export default function App() {
   return (
@@ -13,9 +13,9 @@ export default function App() {
         <div className="app-content">
           <nav className="app-sidebar">
             <ul>
-              <li><Link to="/calculadora-doses">Calculadora de Doses</Link></li>
-              <li><Link to="/reposicao">Reposição</Link></li>
-              <li><Link to="/editor-texto">Editor de Texto</Link></li>
+              <li><Link to="/calculadora-doses"> Calculadora de Doses</Link></li>
+              <li><Link to="/reposicao"> Reposição</Link></li>
+              <li><Link to="/editor-texto"> Editor de Texto</Link></li>
             </ul>
           </nav>
           <main className="app-main">
