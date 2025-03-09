@@ -1,0 +1,110 @@
+/* Estilos globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  /* Contêiner principal */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Cabeçalho */
+  .app-header {
+    background-color: #C3272B; /* Cor vermelha principal */
+    color: white;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* Conteúdo principal */
+  .app-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  /* Barra lateral (menu de navegação) */
+  .app-sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 16px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .app-sidebar li {
+    margin-bottom: 12px;
+  }
+  
+  .app-sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .app-sidebar a:hover {
+    color: #C3272B; /* Cor vermelha principal */
+  }
+  
+  /* Área principal de conteúdo */
+  .app-main {
+    flex: 1;
+    padding: 16px;
+    background-color: #ffffff;
+  }
+
+  /* Calculadora */
+  .conteinerCalculadora {
+    margin-top: 0px;
+  }
+  .calculadoraTitulo {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  } 
+    .calculadoraPeso {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .calculadoraPeso input {
+    width: 60px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .calculadoraMedicamento{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    
+  }
+  .CalculadoraPersonalizado{
+    font-size: 16px;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .CalculadoraPersonalizado input {
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
