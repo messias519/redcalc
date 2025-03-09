@@ -59,7 +59,7 @@ export default function CalculadoraDeDoses() {
     <div className="conteinerCalculadora">
       <h2 className="calculadoraTitulo">Calculadora de Doses</h2>
       <div className="calculadoraPeso">
-        <label className="block font-semibold text-lg">Peso:  </label>
+        <label className="block font-semibold text-lg">Peso:   </label>
          <input type="number" className="border p-2 w-full rounded" value={peso} onChange={(e) => setPeso(parseFloat(e.target.value) || '')} /> kg
       </div>
       {usarPersonalizado ? (
